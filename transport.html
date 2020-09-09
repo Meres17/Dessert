@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transport</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css' />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header contentSize">
+            <label class="phoneModeShow" for="bar">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" id="bar">
+            <div>
+                <a class="phoneModeHide" href="home.html"><img src="img/logo-dark.png" alt=""></a>
+                <h1>
+                    <a href="home.html"><img src="img/logotype-lg-dark.png" alt="Sweetaste"></a>
+                </h1>
+            </div>
+            <a class="phoneModeShow" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <ul>
+                <li><a href="home.html">首頁</a></li>
+                <li><a href="dessert.html">甜點</a></li>
+                <li><a href="login.html">登入</a></li>
+                <li><a class="phoneModeHide" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="transportContent contentSize">
+                <div class="data">
+                    <div class="dataDeteil">
+                        <div>
+                            <p>運送</p>
+                            <ul>
+                                <li><i class="far fa-dot-circle"></i></li>
+                                <li><i class="far fa-circle"></i></li>
+                                <li><i class="far fa-circle"></i></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="columnType">
+                                <label for="lastname">姓氏</label>
+                                <input type="text" id="lastname" placeholder="王">
+                            </div>
+                            <div class="columnType">
+                                <label for="firstname">名字</label>
+                                <input type="text" id="firstname" placeholder="小明">
+                            </div>
+                        </div>
+                        <div class="columnType">
+                            <label for="phoneNumber">電話</label>
+                            <input type="text" name="" id="phoneNumber" placeholder="0987-654-312">
+                        </div>
+                        <div class="columnType">
+                            <label for="address">地址</label>
+                            <div>
+                                <select name="" aria-placeholder="Kaohsiung">
+                                    <option value="Kaohsiung">高雄市</option>
+                                </select>
+                                <select name="" aria-placeholder="QianzhenDist">
+                                    <option value="QianzhenDist">前鎮區</option>
+                                </select>
+                            </div>
+                            <input type="text" id="address" placeholder="什麼街什麼路100號">
+                        </div>
+                    </div>
+
+                    <button class="buttonNext" onclick="location.href='pay.html'">下一步</button>
+
+                </div>
+
+                <div class="orderList padModeHide">
+                    <div class="orderSummary">
+                        <p>訂單摘要</p>
+                        <ul>
+                            <li><span>小計</span><span>NT$ 2,700</span></li>
+                            <li><span>運費</span><span>NT$ 300</span></li>
+                            <li><span>總計</span><span>NT$ 3,000</span></li>
+                        </ul>
+                    </div>
+                    <div class="shoppingList">
+                        <p>購物清單</p>
+                        <ul>
+                            <li>
+                                <div class="shoppingListPhoto">&nbsp</div>
+                                <div>
+                                    <h2>焦糖瑪卡龍(2)</h2>
+                                    <span>NT $900</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shoppingListPhoto">&nbsp</div>
+                                <div>
+                                    <h2>焦糖瑪卡龍(2)</h2>
+                                    <span>NT $900</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shoppingListPhoto">&nbsp</div>
+                                <div>
+                                    <h2>焦糖瑪卡龍(2)</h2>
+                                    <span>NT $900</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div>
+                <div class="subscribe contentSize">
+                    <div>
+                        <img src="img/logo-light.png" alt="">
+                        <span>訂閱你我的甜蜜郵件</span>
+                    </div>
+                    <div class="mail">
+                        <input type="text">
+                        <i class="fas fa-envelope"></i>
+                        <button><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="information contentSize">
+                <div class="mainInformation">
+                    <div>
+                        <img src="img/logotype-lg-dark.png" alt="">
+                        <ul>
+                            <li><a href="tel:07-1234-5678">07-1234-5678</a></li>
+                            <li><a href="mailto:">sweetaste@email.com</a></li>
+                            <li>800 高雄市新興區幸福路 520 號</li>
+                        </ul>
+                    </div>
+                    <img class="phoneModeHide" src="img/sm-今天是個吃甜點的好日子.png" alt="">
+                </div>
+                <div class="bottomInformation">
+                    <ul>
+                        <li>
+                            <a href=""><img src="img/ic-line@.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/ic-facebook.png" alt=""></a>
+                        </li>
+                    </ul>
+                    <p>© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
